@@ -6,9 +6,9 @@ class Rsworktree < Formula
   license "MIT"
   head "https://github.com/ozankasikci/rust-git-worktree.git", branch: "master"
 
-  depends_on "rust" => :build
-  depends_on "pkg-config" => :build
   depends_on "cmake" => :build
+  depends_on "pkg-config" => :build
+  depends_on "rust" => :build
 
   def install
     system "cargo", "install", *std_cargo_args(path: ".")
