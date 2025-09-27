@@ -1,21 +1,21 @@
 class Rsworktree < Formula
   desc "CLI helper for managing Git worktrees under a dedicated .rsworktree directory"
   homepage "https://github.com/ozankasikci/rust-git-worktree"
-  version "0.4.2"
+  version "0.5.1"
   license "MIT"
   head "https://github.com/ozankasikci/rust-git-worktree.git", branch: "master"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ozankasikci/rust-git-worktree/releases/download/v0.4.2/rsworktree-v0.4.2-macos-arm64.tar.gz"
-      sha256 "0c44bed0d043763464a93262315fae340b18f4bd5a7094484ff53d7a06f67bdd"
+      url "https://github.com/ozankasikci/rust-git-worktree/releases/download/v0.5.1/rsworktree-v0.5.1-macos-arm64.tar.gz"
+      sha256 "38c2179cce6f1df93d1b75cf9b0cbb018c35de3fd381aa129a36ea198d7a0dfa"
     else
-      url "https://github.com/ozankasikci/rust-git-worktree/releases/download/v0.4.2/rsworktree-v0.4.2-macos-x86_64.tar.gz"
-      sha256 "dad17b82f47a204a1291a50b4b648da7b5ff3a8ce674201f68a47b2db979194b"
+      url "https://github.com/ozankasikci/rust-git-worktree/releases/download/v0.5.1/rsworktree-v0.5.1-macos-x86_64.tar.gz"
+      sha256 "599ce7e44c100435a7ea84e497ca12a2340441b166187743b8b43e14169a6c1e"
     end
   else
-    url "https://github.com/ozankasikci/rust-git-worktree/archive/refs/tags/v0.4.2.tar.gz"
-    sha256 "0f11c5613665ffc492a989a91db3c1db5a7d6c6f6c17e2578caa4210197a5b61"
+    url "https://github.com/ozankasikci/rust-git-worktree/archive/refs/tags/v0.5.1.tar.gz"
+    sha256 "8c178ccfa8240889191199a846b0009fc906c9498c23d0c38976e8cdd510863c"
   end
 
   unless OS.mac?
