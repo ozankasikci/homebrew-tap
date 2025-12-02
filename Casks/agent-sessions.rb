@@ -1,13 +1,13 @@
 cask "agent-sessions" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
-    sha256 "b8dcad4adc57b4d19ccee7ab2bb161aba5353641dac9eaa96ff4cf4e03f070eb"
+    sha256 "61a3121b80324dc3fdcd17c3488b140586117b92dfd56142aa3add9d9be49da2"
     url "https://github.com/ozankasikci/agent-sessions/releases/download/v#{version}/AgentSessions_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "77e4b3a7d2c1428a26f1299d95f6602b1a2a14b36e3002170b80edd23cb99129"
+    sha256 "a7c278b588e2cb7947120087b969c123c445459f26e020bd6ae593f0ef447712"
     url "https://github.com/ozankasikci/agent-sessions/releases/download/v#{version}/AgentSessions_#{version}_x64.dmg"
   end
 
