@@ -1,11 +1,11 @@
 class Unport < Formula
   desc "Local development port manager with automatic domain routing"
   homepage "https://github.com/ozankasikci/unport"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
-  url "https://github.com/ozankasikci/unport/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "6c4415cecaf1055e4cd8d9abc8bbed1769b5c94365664bb30f05bb716ce8947f"
+  url "https://github.com/ozankasikci/unport/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "4b7f708ed27876bea06f1a08ca3dcfe3bc1bddbdbcbafb5c01300054b211f2ad"
 
   depends_on "rust" => :build
 
