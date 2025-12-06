@@ -1,6 +1,6 @@
 cask "rust-disk-cleaner" do
-  version "0.2.1"
-  sha256 "3d6960d2a58e382af93dbeb5942177e466fe4c1094cf6c14b5e4c80d51f93ef7"
+  version "0.2.2"
+  sha256 "6fef858560e6fe2e6a91a9c857f1991ee5cedc6cd62ba654f38ebe928927ca5e"
 
   url "https://github.com/ozankasikci/rust-disk-cleaner/releases/download/v#{version}/RustDiskCleaner_#{version}_aarch64.dmg"
 
